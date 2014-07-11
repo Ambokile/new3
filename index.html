@@ -940,7 +940,7 @@ xmlhttp.send("name="+element+"&user_name="+element_1+"&email="+element_2+"&birth
 
      <div class="ui-block-a" style="width:100%; font-size:13px; text-align:center;">
         <div data-role="controlgroup" data-type="horizontal">
-          <input type="submit" value="Submit" name="submit" id="validate" onClick=" return validate_reg();"/>
+          <input type="submit" value="Submit" name="submit" id="validate" onClick=" return send_userinfo(); return validate_reg();"/>
           <input type="reset" value="clear" />
         </div>
       </div>
